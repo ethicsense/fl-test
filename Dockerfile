@@ -16,4 +16,5 @@ RUN sudo apt-get install -y python3-pip
 
 # Install Packages
 RUN pip install --upgrade pip
+RUN pip3 install torch torchvision torchaudio
 RUN pip install -r requirements.txt

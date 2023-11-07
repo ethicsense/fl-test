@@ -109,7 +109,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument(
     '--server_address',
     type=str,
-    default="192.168.1.18:8080"
+    default="192.168.1.7:8083"
 )
 args=parser.parse_args()
 

@@ -35,6 +35,8 @@ strategy = fl.server.strategy.FedAvg(
     min_available_clients=args.num_clients
 )
 
+fl.common.logger.configure(identifier="evc_test", filename="flwr_logs/fl_log.txt")
+
 # Start Flower server
 fl.server.start_server(
     server_address=f"0.0.0.0:{args.server_port}",

@@ -43,13 +43,29 @@ class Net(nn.Module):
 
 def train(net, trainloader, epochs):
     """Train the model on the training set."""
+    correct, total, epoch_loss = 0, 0, 0.0
     criterion = torch.nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
-    for _ in range(epochs):
+    for i in range(epochs):
         for images, labels in tqdm(trainloader):
             optimizer.zero_grad()
-            criterion(net(images.to(DEVICE)), labels.to(DEVICE)).backward()
+            y_pred = net(images.to(DEVICE))
+            labels = labels.to(DEVICE)
+            loss = criterion((y_pred), labels)
+
+            loss.backward()
+
             optimizer.step()
+
+            epoch_loss += loss
+            total += labels.size(0)
+
+            correct += (y_pred.round() == labels).sum().item()
+        
+        epoch_loss /= len(trainloader.dataset)
+        epoch_acc = correct / total
+        
+        print(f"Epoch {i+1}: train loss {epoch_loss}, accuracy {epoch_acc}")
 
 
 def test(net, testloader):
@@ -95,7 +111,7 @@ class FlowerClient(fl.client.NumPyClient):
 
     def fit(self, parameters, config):
         self.set_parameters(parameters)
-        train(net, trainloader, epochs=1)
+        train(net, trainloader, epochs=5)
         return self.get_parameters(config={}), len(trainloader.dataset), {}
 
     def evaluate(self, parameters, config):

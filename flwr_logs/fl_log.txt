@@ -1,0 +1,89 @@
+evcFLtest | INFO flwr 2023-11-09 17:16:27,385 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:16:27,398 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:16:27,398 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:16:27,398 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:16:36,780 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:16:36,780 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:19:03,738 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:19:03,749 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:19:03,749 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:19:03,749 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:19:08,348 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:19:08,349 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:19:55,341 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:19:55,349 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:19:55,350 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:19:55,350 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:19:58,617 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:19:58,617 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:24:50,491 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:24:50,728 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:24:50,730 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:24:50,730 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:24:55,680 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:24:55,680 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:27:09,526 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:27:09,862 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:27:09,862 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:27:09,862 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:27:13,826 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:27:13,826 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:27:26,529 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:27:26,651 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:27:26,651 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:27:26,651 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:27:28,243 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:27:28,243 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:29:22,537 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:29:22,653 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:29:22,653 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:29:22,654 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:29:24,146 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:29:24,146 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:30:06,799 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:30:06,918 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:30:06,918 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:30:06,918 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:30:08,510 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:30:08,510 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:33:00,690 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:33:00,808 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:33:00,808 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:33:00,808 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:33:01,678 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:33:01,678 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:33:24,290 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:33:24,409 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:33:24,409 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:33:24,409 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:33:25,291 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:33:25,292 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:34:58,055 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:34:58,288 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:34:58,289 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:34:58,289 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:35:04,324 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:35:04,324 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:36:52,660 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:36:52,785 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:36:52,785 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:36:52,785 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:36:55,773 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:36:55,774 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:37:20,630 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:37:20,644 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:37:20,644 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:37:20,644 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:37:21,882 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:37:21,882 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:39:32,944 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evcFLtest | INFO flwr 2023-11-09 17:39:33,055 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evcFLtest | INFO flwr 2023-11-09 17:39:33,055 | server.py:89 | Initializing global parameters
+evcFLtest | INFO flwr 2023-11-09 17:39:33,055 | server.py:276 | Requesting initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:39:34,765 | server.py:280 | Received initial parameters from one random client
+evcFLtest | INFO flwr 2023-11-09 17:39:34,766 | server.py:91 | Evaluating initial parameters
+evcFLtest | INFO flwr 2023-11-09 17:39:38,578 | server.py:94 | initial parameters (loss, other metrics): 23051.44731450081, {'accuracy': 0.1}
+evcFLtest | INFO flwr 2023-11-09 17:39:38,578 | server.py:104 | FL starting
+evcFLtest | DEBUG flwr 2023-11-09 17:39:55,438 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+evcFLtest | DEBUG flwr 2023-11-09 17:39:55,524 | server.py:236 | fit_round 1 received 0 results and 2 failures
+evcFLtest | INFO flwr 2023-11-09 17:39:59,291 | server.py:125 | fit progress: (1, 23051.44731450081, {'accuracy': 0.1}, 20.712942124999998)

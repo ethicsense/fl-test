@@ -23,7 +23,7 @@ parser.add_argument(
 parser.add_argument(
     '--num_clients',
     type=int,
-    default=1
+    default=2
 )
 args=parser.parse_args()
 
@@ -35,11 +35,9 @@ strategy = fl.server.strategy.FedAvg(
     min_available_clients=args.num_clients
 )
 
-fl.common.logger.configure(identifier="evcFLtest", filename="log.txt")
-
 # Start Flower server
 fl.server.start_server(
     server_address=f"0.0.0.0:{args.server_port}",
-    config=fl.server.ServerConfig(num_rounds=3),
+    config=fl.server.ServerConfig(num_rounds=10),
     strategy=strategy,
 )

@@ -3,6 +3,8 @@ FROM python
 WORKDIR /home
 ADD ./model.tar.gz .
 
+RUN mkdir -p flwr_logs
+
 RUN apt-get update && apt-get install -y sudo
 RUN chmod +w /etc/sudoers
 RUN echo 'irteam ALL=(ALL) NOPASSWD:ALL' | tee -a /etc/sudoers

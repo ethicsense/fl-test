@@ -260,3 +260,33 @@ evc_test | INFO flwr 2023-11-20 17:32:15,734 | app.py:226 | app_fit: metrics_dis
 evc_test | INFO flwr 2023-11-20 17:32:15,734 | app.py:227 | app_fit: metrics_distributed {'accuracy': [(1, 0.2859), (2, 0.3742), (3, 0.4426)]}
 evc_test | INFO flwr 2023-11-20 17:32:15,734 | app.py:228 | app_fit: losses_centralized []
 evc_test | INFO flwr 2023-11-20 17:32:15,734 | app.py:229 | app_fit: metrics_centralized {}
+evc_test | INFO flwr 2023-11-21 11:06:11,675 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-21 11:06:11,692 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-21 11:06:11,692 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-21 11:06:11,692 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-21 11:08:07,954 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-21 11:08:07,968 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-21 11:08:07,969 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-21 11:08:07,969 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-21 11:08:41,808 | server.py:280 | Received initial parameters from one random client
+evc_test | INFO flwr 2023-11-21 11:08:41,808 | server.py:91 | Evaluating initial parameters
+evc_test | INFO flwr 2023-11-21 11:08:41,808 | server.py:104 | FL starting
+evc_test | DEBUG flwr 2023-11-21 11:08:52,774 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-21 11:09:03,288 | server.py:236 | fit_round 1 received 2 results and 0 failures
+evc_test | WARNING flwr 2023-11-21 11:09:03,294 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+evc_test | DEBUG flwr 2023-11-21 11:09:03,294 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-21 11:09:08,733 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-21 11:09:08,733 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-21 11:09:19,197 | server.py:236 | fit_round 2 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-21 11:09:19,202 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-21 11:09:24,748 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-21 11:09:24,749 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-21 11:09:35,270 | server.py:236 | fit_round 3 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-21 11:09:35,277 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-21 11:09:40,697 | server.py:187 | evaluate_round 3 received 2 results and 0 failures
+evc_test | INFO flwr 2023-11-21 11:09:40,697 | server.py:153 | FL finished in 58.889200292
+evc_test | INFO flwr 2023-11-21 11:09:40,698 | app.py:225 | app_fit: losses_distributed [(1, 19141.0859375), (2, 16179.970703125), (3, 14831.4130859375)]
+evc_test | INFO flwr 2023-11-21 11:09:40,698 | app.py:226 | app_fit: metrics_distributed_fit {}
+evc_test | INFO flwr 2023-11-21 11:09:40,698 | app.py:227 | app_fit: metrics_distributed {'accuracy': [(1, 0.3092), (2, 0.3975), (3, 0.4558)]}
+evc_test | INFO flwr 2023-11-21 11:09:40,699 | app.py:228 | app_fit: losses_centralized []
+evc_test | INFO flwr 2023-11-21 11:09:40,699 | app.py:229 | app_fit: metrics_centralized {}

@@ -5,12 +5,14 @@ import flwr as fl
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, random_split
 from torchvision.datasets import CIFAR10
+import torchvision.transforms as transforms
 from torchvision.transforms import Compose, Normalize, ToTensor
 from tqdm import tqdm
 import argparse
 
+import socket
 
 # #############################################################################
 # 1. Regular PyTorch pipeline: nn.Module, train, test, and DataLoader
@@ -85,6 +87,12 @@ trainloader, testloader = load_data()
 
 # Define Flower client
 class FlowerClient(fl.client.NumPyClient):
+
+    def get_properties(self):
+        return {
+            "node_name" : socket.gethostname()
+        }
+
     def get_parameters(self, config):
         return [val.cpu().numpy() for _, val in net.state_dict().items()]
 
@@ -102,7 +110,6 @@ class FlowerClient(fl.client.NumPyClient):
         self.set_parameters(parameters)
         loss, accuracy = test(net, testloader)
         return loss, len(testloader.dataset), {"accuracy": accuracy}
-
 
 
 parser = argparse.ArgumentParser()

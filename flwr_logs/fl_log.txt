@@ -87,3 +87,176 @@ evcFLtest | INFO flwr 2023-11-09 17:39:38,578 | server.py:104 | FL starting
 evcFLtest | DEBUG flwr 2023-11-09 17:39:55,438 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
 evcFLtest | DEBUG flwr 2023-11-09 17:39:55,524 | server.py:236 | fit_round 1 received 0 results and 2 failures
 evcFLtest | INFO flwr 2023-11-09 17:39:59,291 | server.py:125 | fit progress: (1, 23051.44731450081, {'accuracy': 0.1}, 20.712942124999998)
+evc_test | INFO flwr 2023-11-20 15:31:41,531 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=10, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 15:31:41,546 | app.py:175 | Flower ECE: gRPC server running (10 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 15:31:41,546 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 15:31:41,546 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 15:31:48,221 | server.py:280 | Received initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 15:31:48,221 | server.py:91 | Evaluating initial parameters
+evc_test | INFO flwr 2023-11-20 15:31:48,221 | server.py:104 | FL starting
+evc_test | DEBUG flwr 2023-11-20 15:31:55,552 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:32:12,818 | server.py:236 | fit_round 1 received 2 results and 0 failures
+evc_test | WARNING flwr 2023-11-20 15:32:12,821 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+evc_test | DEBUG flwr 2023-11-20 15:32:12,821 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:32:18,101 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:32:18,101 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:32:35,304 | server.py:236 | fit_round 2 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:32:35,307 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:32:40,517 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:32:40,517 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:32:57,768 | server.py:236 | fit_round 3 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:32:57,771 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:33:02,965 | server.py:187 | evaluate_round 3 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:33:02,966 | server.py:222 | fit_round 4: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:33:20,208 | server.py:236 | fit_round 4 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:33:20,211 | server.py:173 | evaluate_round 4: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:33:25,431 | server.py:187 | evaluate_round 4 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:33:25,432 | server.py:222 | fit_round 5: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:33:42,694 | server.py:236 | fit_round 5 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:33:42,697 | server.py:173 | evaluate_round 5: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:33:47,876 | server.py:187 | evaluate_round 5 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:33:47,876 | server.py:222 | fit_round 6: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:34:00,561 | server.py:236 | fit_round 6 received 0 results and 2 failures
+evc_test | INFO flwr 2023-11-20 15:34:06,913 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=5, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 15:34:06,922 | app.py:175 | Flower ECE: gRPC server running (5 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 15:34:06,922 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 15:34:06,922 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 15:34:12,654 | server.py:280 | Received initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 15:34:12,654 | server.py:91 | Evaluating initial parameters
+evc_test | INFO flwr 2023-11-20 15:34:12,654 | server.py:104 | FL starting
+evc_test | DEBUG flwr 2023-11-20 15:34:15,247 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:34:32,546 | server.py:236 | fit_round 1 received 2 results and 0 failures
+evc_test | WARNING flwr 2023-11-20 15:34:32,549 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+evc_test | DEBUG flwr 2023-11-20 15:34:32,549 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:34:37,679 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:34:37,679 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:34:54,882 | server.py:236 | fit_round 2 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:34:54,884 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:35:00,083 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:35:00,084 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:35:17,231 | server.py:236 | fit_round 3 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:35:17,233 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:35:22,403 | server.py:187 | evaluate_round 3 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:35:22,404 | server.py:222 | fit_round 4: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:35:39,701 | server.py:236 | fit_round 4 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:35:39,703 | server.py:173 | evaluate_round 4: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:35:44,902 | server.py:187 | evaluate_round 4 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:35:44,902 | server.py:222 | fit_round 5: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:36:02,055 | server.py:236 | fit_round 5 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 15:36:02,057 | server.py:173 | evaluate_round 5: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 15:36:07,274 | server.py:187 | evaluate_round 5 received 2 results and 0 failures
+evc_test | INFO flwr 2023-11-20 15:36:07,274 | server.py:153 | FL finished in 114.62068233299999
+evc_test | INFO flwr 2023-11-20 15:36:07,275 | app.py:225 | app_fit: losses_distributed [(1, 19376.548828125), (2, 16135.80078125), (3, 14936.1181640625), (4, 14016.2021484375), (5, 13327.8828125)]
+evc_test | INFO flwr 2023-11-20 15:36:07,275 | app.py:226 | app_fit: metrics_distributed_fit {}
+evc_test | INFO flwr 2023-11-20 15:36:07,275 | app.py:227 | app_fit: metrics_distributed {'accuracy': [(1, 0.2824), (2, 0.4059), (3, 0.4562), (4, 0.4957), (5, 0.52)]}
+evc_test | INFO flwr 2023-11-20 15:36:07,275 | app.py:228 | app_fit: losses_centralized []
+evc_test | INFO flwr 2023-11-20 15:36:07,275 | app.py:229 | app_fit: metrics_centralized {}
+evc_test | INFO flwr 2023-11-20 15:53:37,267 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 15:53:37,282 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 15:53:37,282 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 15:53:37,282 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 15:59:53,143 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 15:59:53,152 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 15:59:53,152 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 15:59:53,152 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 16:03:16,974 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 16:03:16,983 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 16:03:16,983 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 16:03:16,983 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:11:03,065 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:11:03,075 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:11:03,075 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:11:03,075 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:11:58,096 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:11:58,105 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:11:58,105 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:11:58,105 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:15:13,140 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:15:13,149 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:15:13,149 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:15:13,149 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:15:25,659 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:15:25,668 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:15:25,668 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:15:25,668 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:16:00,927 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:16:00,936 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:16:00,936 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:16:00,936 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:16:31,955 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:16:31,963 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:16:31,963 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:16:31,963 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:17:53,314 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:17:53,323 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:17:53,324 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:17:53,324 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:20:59,750 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:20:59,766 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:20:59,766 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:20:59,766 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:21:47,303 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:21:47,311 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:21:47,312 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:21:47,312 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:21:50,779 | server.py:280 | Received initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:21:50,779 | server.py:91 | Evaluating initial parameters
+evc_test | INFO flwr 2023-11-20 17:21:50,779 | server.py:104 | FL starting
+evc_test | INFO flwr 2023-11-20 17:22:27,689 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:22:27,698 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:22:27,698 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:22:27,698 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:22:31,093 | server.py:280 | Received initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:22:31,093 | server.py:91 | Evaluating initial parameters
+evc_test | INFO flwr 2023-11-20 17:22:31,093 | server.py:104 | FL starting
+evc_test | DEBUG flwr 2023-11-20 17:22:35,679 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:22:53,373 | server.py:236 | fit_round 1 received 2 results and 0 failures
+evc_test | WARNING flwr 2023-11-20 17:22:53,376 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+evc_test | DEBUG flwr 2023-11-20 17:22:53,376 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:22:58,740 | server.py:187 | evaluate_round 1 received 0 results and 2 failures
+evc_test | DEBUG flwr 2023-11-20 17:24:21,024 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:24:38,542 | server.py:236 | fit_round 2 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 17:24:38,545 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:24:43,942 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+evc_test | INFO flwr 2023-11-20 17:29:43,902 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:29:43,915 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:29:43,915 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:29:43,915 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:29:47,347 | server.py:280 | Received initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:29:47,347 | server.py:91 | Evaluating initial parameters
+evc_test | INFO flwr 2023-11-20 17:29:47,347 | server.py:104 | FL starting
+evc_test | DEBUG flwr 2023-11-20 17:29:48,759 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:30:05,953 | server.py:236 | fit_round 1 received 2 results and 0 failures
+evc_test | WARNING flwr 2023-11-20 17:30:05,955 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+evc_test | DEBUG flwr 2023-11-20 17:30:05,955 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:30:11,118 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+evc_test | INFO flwr 2023-11-20 17:30:56,641 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:30:56,651 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:30:56,651 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:30:56,651 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:30:59,868 | app.py:162 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+evc_test | INFO flwr 2023-11-20 17:30:59,877 | app.py:175 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+evc_test | INFO flwr 2023-11-20 17:30:59,877 | server.py:89 | Initializing global parameters
+evc_test | INFO flwr 2023-11-20 17:30:59,877 | server.py:276 | Requesting initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:31:03,572 | server.py:280 | Received initial parameters from one random client
+evc_test | INFO flwr 2023-11-20 17:31:03,572 | server.py:91 | Evaluating initial parameters
+evc_test | INFO flwr 2023-11-20 17:31:03,572 | server.py:104 | FL starting
+evc_test | DEBUG flwr 2023-11-20 17:31:05,677 | server.py:222 | fit_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:31:23,477 | server.py:236 | fit_round 1 received 2 results and 0 failures
+evc_test | WARNING flwr 2023-11-20 17:31:23,480 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+evc_test | DEBUG flwr 2023-11-20 17:31:23,480 | server.py:173 | evaluate_round 1: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:31:28,911 | server.py:187 | evaluate_round 1 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 17:31:28,912 | server.py:222 | fit_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:31:46,527 | server.py:236 | fit_round 2 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 17:31:46,529 | server.py:173 | evaluate_round 2: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:31:51,928 | server.py:187 | evaluate_round 2 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 17:31:51,928 | server.py:222 | fit_round 3: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:32:10,220 | server.py:236 | fit_round 3 received 2 results and 0 failures
+evc_test | DEBUG flwr 2023-11-20 17:32:10,223 | server.py:173 | evaluate_round 3: strategy sampled 2 clients (out of 2)
+evc_test | DEBUG flwr 2023-11-20 17:32:15,733 | server.py:187 | evaluate_round 3 received 2 results and 0 failures
+evc_test | INFO flwr 2023-11-20 17:32:15,733 | server.py:153 | FL finished in 72.162374
+evc_test | INFO flwr 2023-11-20 17:32:15,733 | app.py:225 | app_fit: losses_distributed [(1, 20383.88671875), (2, 17001.126953125), (3, 15285.9970703125)]
+evc_test | INFO flwr 2023-11-20 17:32:15,734 | app.py:226 | app_fit: metrics_distributed_fit {}
+evc_test | INFO flwr 2023-11-20 17:32:15,734 | app.py:227 | app_fit: metrics_distributed {'accuracy': [(1, 0.2859), (2, 0.3742), (3, 0.4426)]}
+evc_test | INFO flwr 2023-11-20 17:32:15,734 | app.py:228 | app_fit: losses_centralized []
+evc_test | INFO flwr 2023-11-20 17:32:15,734 | app.py:229 | app_fit: metrics_centralized {}

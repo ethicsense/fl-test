@@ -1,2 +1,5 @@
 # ignore dataset
 data/*
+
+# ignore tensorboard logs
+runs/

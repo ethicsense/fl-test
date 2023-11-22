@@ -4,6 +4,7 @@ WORKDIR /home
 ADD ./model.tar.gz .
 
 RUN mkdir -p flwr_logs
+RUN mkdir -p runs
 
 RUN apt-get update && apt-get install -y sudo
 RUN chmod +w /etc/sudoers

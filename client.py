@@ -111,7 +111,7 @@ class FlowerClient(fl.client.NumPyClient):
         loss, accuracy = test(net, testloader)
         print(loss)
         print(accuracy)
-        return loss, len(testloader.dataset), {"accuracy": accuracy}
+        return loss, len(testloader.dataset), {"accuracy": accuracy, "loss": loss}
 
 
 parser = argparse.ArgumentParser()

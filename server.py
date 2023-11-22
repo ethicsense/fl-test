@@ -67,11 +67,18 @@ data = fl.server.start_server(
     strategy=strategy,
 )
 
+'''
+ fl.server.start_server의 리턴값  => fl.history.History
+ losses 와 metrics 등 다양한 속성값을 확인할 수 있음
+
+ dir(data) # 객체의 속성값 확인
+'''
 # print(data.losses_distributed[0][0])
 # print(data.losses_distributed[0][1])
 # print(data.metrics_distributed["accuracy"][0][0])
 # print(data.metrics_distributed["accuracy"][0][1])
 
+## dataframe으로 변환하여 저장
 df = pd.DataFrame(columns=['Round', 'Loss', 'Accuracy'])
 
 for i in range(len(data.losses_distributed)):
@@ -84,6 +91,7 @@ for i in range(len(data.losses_distributed)):
 
 print(df)
 
+## df를 tensorboard log 형태로 재변환
 def visualize_tensorboard(df):
     writer = SummaryWriter()  # SummaryWriter 생성
 

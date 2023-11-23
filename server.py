@@ -4,7 +4,6 @@ import flwr as fl
 from flwr.common import Metrics
 import argparse
 
-import tensorflow as tf
 import pandas as pd
 from torch.utils.tensorboard import SummaryWriter
 from tensorboard import program
